@@ -1,0 +1,40 @@
+# Applied Case Study: Algorithmic Transparency & Model Lineage Auditing
+**Author:** Kazi Raisul Islam  
+**Framework Association:** Integration with Zenodo Record 20208902 (SEMI E187 / EU AI Act Mapping)  
+**Methodological Foundation:** EU AI Act Compliance Frameworks (Articles 13 & 15)
+
+---
+
+## 1. Objective & Scope
+This case study establishes a rigorous auditing workflow to satisfy the strict transparency requirements mandated by **Articles 13 and 15 of the European Union AI Act**. As machine learning models are increasingly deployed to optimize manufacturing parameters, supply logistics, and automated decision-making on the factory floor, organizations must provide undeniable proof of data lineage, algorithmic fairness, and model robustness to prevent severe compliance penalties.
+
+---
+
+## 2. Regulatory Target: Articles 13 & 15 Compliance Blueprint
+
+Under the EU AI Act, high-risk AI systems must be designed to ensure that their operation is sufficiently transparent to enable users to interpret the system's output.
+
+### Technical Mandates:
+* **Data Origin Tracking:** Absolute verification of dataset sources, pre-processing methods, and training validation logs (Model Lineage).
+* **Technical Documentation:** Continuous monitoring of accuracy, robustness, and cybersecurity metrics.
+* **Human-in-the-Loop Logging:** Automated logging of system states to allow human oversight interfaces to prevent or minimize operational deviations.
+
+---
+
+## 3. Algorithmic Audit Lifecycle (Structural Workflow)
+
+```text
+[Dataset Ingestion] ────> Run SHA-256 Hash on Raw Training Data (Data Lineage Lock)
+                                   │
+                                   ▼
+[Training Phase] ───────> Log Hyperparameters, Training Run Telemetry & Loss Curves
+                                   │
+                                   ▼
+[Pre-Deployment Auditing] ──> Run Bias, Drift & Adversarial Vulnerability Testing
+                                   │
+                                   ▼
+[Production Runtime] ───> Stream Real-Time Prediction Logs to Immutable S3 Storage
+                                   │
+                                   ▼
+[Compliance Gateway] ───> Generate Automated Cryptographic Compliance Signatures
+
