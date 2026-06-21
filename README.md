@@ -27,4 +27,4 @@ Independent GRC Analyst specializing in international technical governance, semi
 
 ## 📬 Contact & Professional Verification
 * **LinkedIn: https://linkedin.com/in/kaziraisulislam
-* **Location Asset:** Target Operations Base — Bucharest, Romania / Tallinn, Estonia
+* **Location Asset:** Target Operations Base — Bucharest, Romania / Sofia, Bulgaria 
