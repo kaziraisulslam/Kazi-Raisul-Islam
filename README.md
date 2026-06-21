@@ -14,9 +14,12 @@ Independent GRC Analyst specializing in international technical governance, semi
 
 ## 🛠️ Technical Skill Stack & Specializations
 * **Regulatory Frameworks:** EU AI Act (Articles 10 & 15), GDPR, NIST SP 800-53, ISO/IEC 27001.
-* **Financial Crime Systems:** Anti-Money Laundering (AML) Lifecycle, Customer Due Diligence (CDD/EDD), Ultimate Beneficial Ownership (UBO) Tracing.
 * **Methodologies:** Third-Party Risk Management (TPRM), Policy-as-Code, Automated Compliance Auditing.
-
+  
+## The Compliance-as-Code Process:
+Codify: Infrastructure is defined in Terraform (The "Architectural Proof").
+Audit: Python scripts verify that the live environment matches the code (The "Verification").
+Artifact: The terminal output is captured as a JSON file, serving as the immutable audit log for EU regulators.
 ---
 
 ## 📈 Academic Foundation
