@@ -1,1 +1,27 @@
+import json
+import datetime
+import os
 
+def log_event(event_type, details):
+    """
+    Simulates a secure, immutable audit log entry.
+    In production, this would stream to AWS CloudWatch with a WORM policy.
+    """
+    log_entry = {
+        "timestamp": str(datetime.datetime.now()),
+        "article": "Art-12-Automated-Logging",
+        "event_type": event_type,
+        "details": details,
+        "integrity_hash": hash(str(details)) # Mock digital fingerprint
+    }
+    
+    # Ensure directory exists
+    os.makedirs('compliance-engine/artifacts', exist_ok=True)
+    
+    with open('compliance-engine/artifacts/art_12_log.json', 'a') as f:
+        f.write(json.dumps(log_entry) + '\n')
+    
+    print(f"[LOGGED] Article 12 Event: {event_type}")
+
+if __name__ == "__main__":
+    log_event("MODEL_DEPLOYMENT", {"model_id": "hr-screen-v1", "version": "2.4.0"})
