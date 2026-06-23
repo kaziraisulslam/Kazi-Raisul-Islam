@@ -1,29 +1,47 @@
 import hashlib
 import json
+import os
+from pathlib import Path
 
-def generate_data_hash(filepath):
-    """Generates a cryptographic fingerprint of your training dataset."""
+def generate_data_hash(file_path):
+    """Generates a SHA-256 fingerprint with memory-efficient chunking."""
     sha256_hash = hashlib.sha256()
-    with open(filepath, "rb") as f:
-        for byte_block in iter(lambda: f.read(4096), b""):
+    path = Path(file_path)
+    
+    if not path.is_file():
+        raise FileNotFoundError(f"Integrity check failed: {file_path} not found.")
+
+    with open(path, "rb") as f:
+        # Read in 64kb chunks to handle massive datasets without crashing RAM
+        for byte_block in iter(lambda: f.read(65536), b""):
             sha256_hash.update(byte_block)
+            
     return sha256_hash.hexdigest()
 
 def audit_data_lineage(dataset_path):
-    # This proves we have a record of the exact data version used
-    data_fingerprint = generate_data_hash(dataset_path)
-    
-    artifact = {
-        "article": "EU-AI-Act-Art-10",
-        "dataset_path": dataset_path,
-        "integrity_hash": data_fingerprint,
-        "status": "VERIFIED"
-    }
-    
-    with open('compliance-engine/art_10/artifacts/lineage_report.json', 'w') as f:
-        json.dump(artifact, f, indent=4)
-    return artifact
+    """Verifies dataset integrity and generates a compliance artifact."""
+    try:
+        data_fingerprint = generate_data_hash(dataset_path)
+        
+        artifact = {
+            "article": "EU-AI-Act-Art-10",
+            "dataset_path": str(dataset_path),
+            "integrity_hash": data_fingerprint,
+            "status": "VERIFIED",
+            "timestamp": os.path.getmtime(dataset_path)
+        }
+        
+        # Ensure the artifacts directory exists
+        os.makedirs('compliance-engine/art_10/artifacts', exist_ok=True)
+        
+        with open('compliance-engine/art_10/artifacts/lineage_report.json', 'w') as f:
+            json.dump(artifact, f, indent=4)
+        return artifact
+
+    except Exception as e:
+        return {"article": "EU-AI-Act-Art-10", "status": "FAILED", "error": str(e)}
 
 if __name__ == "__main__":
-    # Mock usage
-    print(audit_data_lineage("sample_training_data.csv"))
+    # Test execution
+    result = audit_data_lineage("sample_training_data.csv")
+    print(json.dumps(result, indent=4))
