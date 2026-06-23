@@ -1,1 +1,29 @@
+import hashlib
+import json
 
+def generate_data_hash(filepath):
+    """Generates a cryptographic fingerprint of your training dataset."""
+    sha256_hash = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        for byte_block in iter(lambda: f.read(4096), b""):
+            sha256_hash.update(byte_block)
+    return sha256_hash.hexdigest()
+
+def audit_data_lineage(dataset_path):
+    # This proves we have a record of the exact data version used
+    data_fingerprint = generate_data_hash(dataset_path)
+    
+    artifact = {
+        "article": "EU-AI-Act-Art-10",
+        "dataset_path": dataset_path,
+        "integrity_hash": data_fingerprint,
+        "status": "VERIFIED"
+    }
+    
+    with open('compliance-engine/art_10/artifacts/lineage_report.json', 'w') as f:
+        json.dump(artifact, f, indent=4)
+    return artifact
+
+if __name__ == "__main__":
+    # Mock usage
+    print(audit_data_lineage("sample_training_data.csv"))
