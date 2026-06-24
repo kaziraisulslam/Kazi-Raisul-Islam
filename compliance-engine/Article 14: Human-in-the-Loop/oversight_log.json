@@ -1,0 +1,8 @@
+{
+    "article": "EU-AI-Act-Art-14",
+    "timestamp": "2026-06-24T18:25:00",
+    "confidence_score": 0.72,
+    "threshold": 0.85,
+    "action": "REQUIRES_HUMAN_REVIEW",
+    "oversight_required": true
+}
