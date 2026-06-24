@@ -1,0 +1,7 @@
+{
+    "article": "EU-AI-Act-Art-15",
+    "performance_score": 0.942,
+    "required_threshold": 0.92,
+    "robustness_status": "PASS",
+    "test_type": "Adversarial_Stress_Test"
+}
