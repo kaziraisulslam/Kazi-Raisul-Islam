@@ -1,6 +1,13 @@
-# compliance-engine/Enterprise-Layer/CCM/test_ccm.py
 import unittest
-from .drift_monitor import monitor_model_telemetry
+import os
+import sys
+
+# Dynamic path injection to find drift_monitor without relative imports
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
+
+from drift_monitor import monitor_model_telemetry
 
 class TestCCM(unittest.TestCase):
     def test_operational_telemetry(self):
