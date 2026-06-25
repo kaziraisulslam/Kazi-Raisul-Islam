@@ -1,0 +1,18 @@
+{
+    "article": "EU-AI-Act-Art-9",
+    "timestamp": "2026-06-25T14:10:00",
+    "status": "NON-COMPLIANT",
+    "lifecycle_stage": "Post-Market_Monitoring_Ready",
+    "hazard_matrix": [
+        {
+            "hazard_id": "HAZ-01",
+            "risk_score": 15,
+            "residual_status": "ACCEPTABLE"
+        },
+        {
+            "hazard_id": "HAZ-02",
+            "risk_score": 16,
+            "residual_status": "UNACCEPTABLE_ACTION_REQUIRED"
+        }
+    ]
+}
