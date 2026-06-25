@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this compliance engine or reference its architecture, please cite it as below."
+authors:
+  - family-names: "Islam"
+    given-names: "Kazi Raisul"
+    orcid: "https://orcid.org/0000-0003-2415-3972" # Replace with your exact ORCID string
+title: "Compliance-as-Code: Automated Enforcement Engine for the EU Artificial Intelligence Act"
+version: "1.0.0"
+date-released: 2026-06-25
+url: "https://github.com/Kazi-Raisul-Islam/compliance-engine"
+keywords:
+  - "EU AI Act"
+  - "Compliance-as-Code"
+  - "Continuous Auditing"
+  - "GRC Automation"
