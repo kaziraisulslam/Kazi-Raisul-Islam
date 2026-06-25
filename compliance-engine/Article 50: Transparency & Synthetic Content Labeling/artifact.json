@@ -1,0 +1,10 @@
+{
+    "article": "EU-AI-Act-Art-50",
+    "status": "COMPLIANT",
+    "checks": {
+        "imperceptible_watermark": true,
+        "provenance_signature": true
+    },
+    "content_type": "text/markdown",
+    "enforcement_action": "NONE"
+}
