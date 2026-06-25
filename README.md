@@ -2,6 +2,13 @@
 [![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
 
+# 🏛️ Compliance-as-Code: EU AI Act Engine
+![Automated EU AI Act Compliance Audit](https://github.com/Kazi-Raisul-Islam/compliance-engine/actions/workflows/compliance-audit.yml/badge.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
+
+**Author:** Kazi Raisul Islam  
+**Focus:** Automated Regulatory Governance for High-Risk AI Systems
+
 ## 🏛️ Executive Profile
 Independent GRC Analyst specializing in international technical governance, semiconductor cybersecurity specifications (**SEMI E187**), and **EU AI Act** regulatory cross-mapping frameworks. Focused on building low-friction, high-yield compliance architectures for global enterprise systems.
 
@@ -12,10 +19,6 @@ Independent GRC Analyst specializing in international technical governance, semi
 * **Repository & Digital Signal:https://zenodo.org/records/20208902
 * **Core Competency:** Algorithmic transparency tracking, supply-chain vulnerability mitigation, and automated data-privacy auditing.
 
----
-# 🏛️ Compliance-as-Code: EU AI Act Engine
-**Author:** Kazi Raisul Islam  
-**Focus:** Automated Regulatory Governance for High-Risk AI Systems
 
 ## 🚀 The Mission
 This repository provides an engineering-grade toolkit for implementing **EU AI Act Title III (High-Risk AI)** requirements. By moving compliance from manual "checkbox" spreadsheets to **automated, version-controlled scripts**, this project enables enterprises to maintain audit-ready infrastructure in real-time.
