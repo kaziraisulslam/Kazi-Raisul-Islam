@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this compliance engine or reference its architecture, please cite it as below."
 authors:
-  - family-names: "Islam"
-    given-names: "Kazi Raisul"
+  - family-names: "Raisul"
+    given-names: "Kazi Raisul Islam"
     orcid: "https://orcid.org/0009-0005-2411-5923"
 title: "Compliance-as-Code: Automated Enforcement Engine for the EU Artificial Intelligence Act"
 version: "1.0.0"
