@@ -1,46 +1,59 @@
 # compliance-engine/run_all_tests.py
-import unittest
 import os
 import sys
+import subprocess
 
 def run_all_compliance_tests():
     """
-    Crawls the entire repository, dynamically injects every subfolder 
-    into the Python path, and executes all compliance tests safely.
+    Finds every test file recursively and executes it in an isolated 
+    subprocess inside its native directory to eliminate import path conflicts.
     """
-    # 1. Get absolute path of the engine root
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # 2. Walk through all directories and force inject them into sys.path
-    # This allows tests inside folders to find their sibling control files easily
-    for root, dirs, files in os.walk(root_dir):
-        if root not in sys.path:
-            sys.path.insert(0, root)
+    failed_tests = []
+    passed_count = 0
+    total_count = 0
 
-    # 3. Initialize the Test Loader
-    loader = unittest.TestLoader()
-    suite = unittest.TestSuite()
+    print("🚀 Initiating Process-Isolated Enterprise Compliance Audit Suite...\n")
 
-    # 4. Discover tests explicitly using absolute directory paths
+    # Walk through the directory tree
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.startswith('test_') and file.endswith('.py'):
-                # Load the specific test file from its specific absolute folder path
-                discovered_tests = loader.discover(start_dir=root, pattern=file)
-                suite.addTests(discovered_tests)
-    
-    # 5. Execute the completed test suite
-    print(f"🚀 Running all discovered compliance and enterprise controls...")
-    runner = unittest.TextTestRunner(verbosity=2)
-    result = runner.run(suite)
-    
-    # 6. Exit with clean codes for GitHub Actions CI/CD
-    if result.wasSuccessful():
-        print("\n[SUCCESS] All compliance engine and enterprise controls passed perfectly.")
-        exit(0)
+                total_count += 1
+                abs_file_path = os.path.join(root, file)
+                relative_path = os.path.relpath(abs_file_path, root_dir)
+                
+                print(f"🔄 Executing: {relative_path}")
+                
+                # Run the individual test file in its native folder context
+                result = subprocess.run(
+                    [sys.executable, file],
+                    cwd=root,  # This forces Python to treat this folder as the root directory
+                    capture_output=True,
+                    text=True
+                )
+                
+                if result.returncode == 0:
+                    print(f"✅ PASSED: {file}\n")
+                    passed_count += 1
+                else:
+                    print(f"❌ FAILED: {file}")
+                    print(f"--- LOG ERROR START ---\n{result.stderr}{result.stdout}\n--- LOG ERROR END ---\n")
+                    failed_tests.append(relative_path)
+
+    # Print final execution audit matrix
+    print("=" * 60)
+    print(f"📊 FINAL AUDIT METRICS: {passed_count}/{total_count} PASSED")
+    print("=" * 60)
+
+    if failed_tests:
+        print("\n🚨 CRITICAL DEPLOYMENT BLOCK: The following test contexts failed:")
+        for current_failed in failed_tests:
+            print(f" - {current_failed}")
+        sys.exit(1)
     else:
-        print("\n[FAILURE] Framework errors or compliance gaps detected. Check logs.")
-        exit(1)
+        print("\n🏆 SUCCESS: All micro-services and compliance criteria are 100% compliant.")
+        sys.exit(0)
 
 if __name__ == "__main__":
     run_all_compliance_tests()
