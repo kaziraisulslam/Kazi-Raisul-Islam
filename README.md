@@ -1,4 +1,5 @@
 # Kazi Raisul Islam | Tech Governance & Compliance Analyst
+[![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
 
 ## 🏛️ Executive Profile
 Independent GRC Analyst specializing in international technical governance, semiconductor cybersecurity specifications (**SEMI E187**), and **EU AI Act** regulatory cross-mapping frameworks. Focused on building low-friction, high-yield compliance architectures for global enterprise systems.
