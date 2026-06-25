@@ -1,6 +1,13 @@
-# compliance-engine/Enterprise-Layer/TPRM/test_tprm.py
 import unittest
-from .vendor_risk_evaluator import evaluate_vendor_risk
+import os
+import sys
+
+# Dynamic path injection to find vendor_risk_evaluator without relative imports
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
+
+from vendor_risk_evaluator import evaluate_vendor_risk
 
 class TestTPRM(unittest.TestCase):
     def test_vendor_approval(self):
