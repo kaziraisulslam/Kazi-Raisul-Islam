@@ -1,6 +1,13 @@
-# compliance-engine/EU-AI-Act/Art-9-Risk-Management/test_risk.py
 import unittest
-from .control import evaluate_lifecycle_risk
+import os
+import sys
+
+# Dynamic path injection to find control safely in an isolated process
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
+
+from control import evaluate_lifecycle_risk
 
 class TestArt9(unittest.TestCase):
     def test_acceptable_residual_risk(self):
