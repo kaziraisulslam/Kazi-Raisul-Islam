@@ -11,19 +11,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # 1. Checkout the code repository using the secure v7 release
     - name: Checkout Code Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
+    # 2. Set up the Python environment using the v6 release
     - name: Set up Python 3.11
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: '3.11'
 
+    # 3. Install dependencies directly inside the compliance-engine context
     - name: Install Enterprise Dependencies
       run: |
         python -m pip install --upgrade pip
         pip install boto3
 
+    # 4. Step into the folder and run the test suite
     - name: Execute Master Compliance Test Suite
       run: |
+        cd compliance-engine
         python run_all_tests.py
