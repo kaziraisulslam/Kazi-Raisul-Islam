@@ -10,13 +10,13 @@ Experienced workflow coordinator and data operations specialist focused on reduc
 
 Direct cross-border operational support and communication fluency in:
 
-English (Professional & Technical Working Capacity)
+English (Full Professional Fluency)
 
-Hindi (Native / Full Professional Fluency)
+Hindi (Full Professional Fluency)
 
 Urdu (Full Professional Fluency)
 
-Bengali (Native / Full Professional Fluency)
+Bengali (Native)
 
 🛠️ CORE OPERATIONAL CAPACITY
 
