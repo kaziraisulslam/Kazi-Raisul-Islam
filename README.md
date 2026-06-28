@@ -1,4 +1,6 @@
 KAZI RAISUL ISLAM
+[![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
 
 📊 Operations Specialist | Process Automation & Optimization | Multilingual Execution
 
@@ -31,14 +33,7 @@ Data Integrity & GRC: Standard Operating Procedure (SOP) Validation, Logging Tra
 Automated Process Triage & Resource Allocation Pipeline
 
 Core Business Value: Re-engineered a manual evaluation pipeline into a fully automated sorting engine, reducing queue processing latency and human data-entry bottlenecks.
-
 Stage 1 (Ingestion & Normalization): Ingests raw multi-format system logs and structures them into standardized data schemas, eliminating manual sorting labor.
-
 Stage 2 (Dynamic Triage & Routing): Evaluates incoming payloads against strict operational thresholds (originally mapped to regulatory compliance rules) to instantly auto-route high-priority incidents to target fulfillment queues.
-
 Stage 3 (Throughput & SLA Tracking): Automatically injects regulatory tracking numbers and assigns operational time-limits (SLAs) to guarantee processing benchmarks are met.
-
-Operational Verification: Powered by a live automated testing harness, achieving a 100% successful execution rate across all workflow validation cycles.# Kazi Raisul Islam | Tech Governance & Compliance Analyst
-[![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
-
+Operational Verification: Powered by a live automated testing harness, achieving a 100% successful execution rate across all workflow validation cycles.
