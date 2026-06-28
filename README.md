@@ -1,51 +1,44 @@
-# Kazi Raisul Islam | Tech Governance & Compliance Analyst
+KAZI RAISUL ISLAM
+
+📊 Operations Specialist | Process Automation & Optimization | Multilingual Execution
+
+Experienced workflow coordinator and data operations specialist focused on reducing cycle times, eliminating processing bottlenecks, and managing high-volume resource allocation. Developer of deterministic rule-engines designed to automate manual classification, sort data queues, and protect operational throughput constraints.
+
+🌐 MULTILINGUAL OPERATIONS CAPABILITY
+
+Direct cross-border operational support and communication fluency in:
+
+English (Professional & Technical Working Capacity)
+
+Hindi (Native / Full Professional Fluency)
+
+Urdu (Full Professional Fluency)
+
+Bengali (Native / Full Professional Fluency)
+
+🛠️ CORE OPERATIONAL CAPACITY
+
+Process Control & Automation: Queue Management, Rule-Based Triage, Incident Categorization, Threshold Bottleneck Auditing
+
+Resource Optimization Tools: Python (Data Standardization, JSON/CSV Parsing, Rest API Pipelines), Automation Infrastructure
+
+Version Management & Workflow Sync: Git/GitHub, Automated Quality Gates (GitHub Actions CI/CD)
+
+Data Integrity & GRC: Standard Operating Procedure (SOP) Validation, Logging Traces, Compliance Verification
+
+🚀 FEATURED AUTOMATION WORKFLOWS
+
+Automated Process Triage & Resource Allocation Pipeline
+
+Core Business Value: Re-engineered a manual evaluation pipeline into a fully automated sorting engine, reducing queue processing latency and human data-entry bottlenecks.
+
+Stage 1 (Ingestion & Normalization): Ingests raw multi-format system logs and structures them into standardized data schemas, eliminating manual sorting labor.
+
+Stage 2 (Dynamic Triage & Routing): Evaluates incoming payloads against strict operational thresholds (originally mapped to regulatory compliance rules) to instantly auto-route high-priority incidents to target fulfillment queues.
+
+Stage 3 (Throughput & SLA Tracking): Automatically injects regulatory tracking numbers and assigns operational time-limits (SLAs) to guarantee processing benchmarks are met.
+
+Operational Verification: Powered by a live automated testing harness, achieving a 100% successful execution rate across all workflow validation cycles.# Kazi Raisul Islam | Tech Governance & Compliance Analyst
 [![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
 
-# 🏛️ Compliance-as-Code: EU AI Act Engine
-![Automated EU AI Act Compliance Audit](https://github.com/Kazi-Raisul-Islam/compliance-engine/actions/workflows/compliance-audit.yml/badge.svg)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
-
-**Author:** Kazi Raisul Islam  
-**Focus:** Automated Regulatory Governance for High-Risk AI Systems
-
-## 🏛️ Executive Profile
-Independent GRC Analyst specializing in international technical governance, semiconductor cybersecurity specifications (**SEMI E187**), and **EU AI Act** regulatory cross-mapping frameworks. Focused on building low-friction, high-yield compliance architectures for global enterprise systems.
-
----
-
-## 🔬 Published Research & Frameworks
-* **Master Framework:** Cross-Mapping SEMI E187 Cybersecurity Standards to EU AI Act Mandates
-* **Repository & Digital Signal:https://zenodo.org/records/20208902
-* **Core Competency:** Algorithmic transparency tracking, supply-chain vulnerability mitigation, and automated data-privacy auditing.
-
-
-## 🚀 The Mission
-This repository provides an engineering-grade toolkit for implementing **EU AI Act Title III (High-Risk AI)** requirements. By moving compliance from manual "checkbox" spreadsheets to **automated, version-controlled scripts**, this project enables enterprises to maintain audit-ready infrastructure in real-time.
-
-## 🛠️ The Compliance Framework
-Each module in this engine maps directly to the regulatory requirements of the EU AI Act:
-
-| EU AI Act Article | Engineering Objective | Implementation Strategy |
-| :--- | :--- | :--- |
-| **Art. 10** | Data Governance | Cryptographic lineage hashing & bias monitoring. |
-| **Art. 11** | Technical Documentation | Infrastructure-as-Code (Terraform) blueprinting. |
-| **Art. 12** | Automated Logging | Tamper-evident hash-chained audit trails. |
-| **Art. 14** | Human-in-the-Loop | Programmatic "Confidence Gates" & override logic. |
-
-## 📂 Repository Structure
-- `/Art-10-Data-Governance`: Bias testing & data fingerprinting.
-- `/Art-11-Technical-Documentation`: Infrastructure state verification.
-- `/Art-12-Logging`: Immutable log-chaining (WORM simulation).
-- `/Art-14-Human-Oversight`: Automated decision-gate enforcement.
-
-## 🔍 Why This Matters
-For global enterprises in Romania and Bulgaria, the EU AI Act is a significant operational risk. This framework transforms that risk into a **technical engineering problem**.
-- **Audit-Ready:** Every control generates an `artifact.json` evidence file.
-- **Testable:** Every control includes an automated `tests.py` suite.
-- **Verifiable:** Cryptographic hashes ensure that infrastructure and data have not been tampered with.
-
-## 💼 Professional Goal
-Building high-friction, high-value compliance architectures for global firms operating in the EU.
-- **Connect:** [LinkedIn](https://linkedin.com/in/kaziraisulislam)
-- **Research:** [Zenodo Record](https://zenodo.org/records/20208902)
