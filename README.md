@@ -40,4 +40,6 @@ Stage 2 (Dynamic Triage & Routing): Evaluates incoming payloads against strict o
 Stage 3 (Throughput & SLA Tracking): Automatically injects regulatory tracking numbers and assigns operational time-limits (SLAs) to guarantee processing benchmarks are met.
 * **Operational AI & Prompt Engineering:** Designing structured prompts (Few-Shot, Chain-of-Thought) to automate data extraction, summarize long operational logs, and instantly generate client shift responses.
 * **Cloud Infrastructure (AWS/Azure/Sandboxes):** Managing remote data environments, ensuring continuous uptime of operational scripts, and working out of cloud-hosted workspaces.
-Operational Verification: Powered by a live automated testing harness, achieving a 100% successful execution rate across all workflow validation cycles.
+* **Operational Visualization & Layouts (Figma, Photoshop, Canva):** Designing clear, highly visual Standard Operating Procedures (SOPs), safety posters, and step-by-step warehouse workflows that reduce training time and human error on the floor.
+* **Data Control & Performance Tracking (MS Excel, Word, PowerPoint):** Engineering advanced tracking spreadsheets, inventory logging tables, automated formulas, and high-impact operational decks for daily management standups.
+* **Workflow Prototyping (Product Design & App Dev Basics):** Mapping out physical supply chain paths and digital asset lifecycles like a product interface, eliminating friction in daily item tracking.
