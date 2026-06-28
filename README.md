@@ -34,6 +34,10 @@ Automated Process Triage & Resource Allocation Pipeline
 
 Core Business Value: Re-engineered a manual evaluation pipeline into a fully automated sorting engine, reducing queue processing latency and human data-entry bottlenecks.
 Stage 1 (Ingestion & Normalization): Ingests raw multi-format system logs and structures them into standardized data schemas, eliminating manual sorting labor.
+
 Stage 2 (Dynamic Triage & Routing): Evaluates incoming payloads against strict operational thresholds (originally mapped to regulatory compliance rules) to instantly auto-route high-priority incidents to target fulfillment queues.
+
 Stage 3 (Throughput & SLA Tracking): Automatically injects regulatory tracking numbers and assigns operational time-limits (SLAs) to guarantee processing benchmarks are met.
+* **Operational AI & Prompt Engineering:** Designing structured prompts (Few-Shot, Chain-of-Thought) to automate data extraction, summarize long operational logs, and instantly generate client shift responses.
+* **Cloud Infrastructure (AWS/Azure/Sandboxes):** Managing remote data environments, ensuring continuous uptime of operational scripts, and working out of cloud-hosted workspaces.
 Operational Verification: Powered by a live automated testing harness, achieving a 100% successful execution rate across all workflow validation cycles.
