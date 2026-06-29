@@ -1,35 +1,57 @@
 KAZI RAISUL ISLAM
 [![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
-### 📦 Operations & Supply Chain Specialist | Digital Tool Integrator | Multilingual Execution
 
-Resourceful, systems-driven Operations Specialist with a proven track record of optimizing workflow throughput, auditing raw log data, and designing highly visual standard operating procedures (SOPs). Expert at transforming messy operational chaos into clean, reportable business assets.
+🎯 EXECUTIVE PROFILE
 
----
+Forward-thinking Business Administration (BBA) scholar and process analyst specializing in Industry 4.0 operations, digital supply chain management, and automated workflow optimization. Developer of deterministic data triage models designed to minimize working capital bottlenecks and enforce strict operational compliance metrics. Fluent in 4 global languages with an elite technical focus on industrial cybersecurity standards (SEMI E187), uniquely positioned to drive efficiency across multinational manufacturing and logistics hubs.
 
-## 🌐 GLOBAL MULTILINGUAL COVERAGE
-Direct operational support, supplier coordination, and document translation capabilities:
-* **English** (Full Professional Fluency)
-* **Hindi** (Full Professional Fluency)
-* **Urdu** (Full Professional Fluency)
-* **Bengali** (Native)
+🌐 MULTILINGUAL OPERATIONS FLUENCY
 
----
+English: Professional & Technical Working Capacity
 
-## 🛠️ SYSTEM OPERATIONS & CREATIVE TOOLKIT
+Hindi: Native / Full Professional Fluency
 
-* **Data Control & Performance Tracking:** Advanced MS Excel (Pivot Tables, VLOOKUP, Automated Reporting), MS PowerPoint, Word
-* **Operational Visualization & Layout Design:** Figma, Adobe Photoshop, Canva (For visual SOPs, safety posters, warehouse floor routing diagrams)
-* **Process Automation & Scripting:** Python (JSON/CSV Parsing, Automated Low-Stock Alert Generation, Log Telemetry Auditing)
-* **Workflow & Incident Tracking:** Jira Service Management, ServiceNow Incident Lifecycle, SLA Threshold Management
+Urdu: Full Professional Fluency
 
----
+Bengali: Native / Full Professional Fluency
 
-## 🚀 FEATURED OPERATIONAL AUTOMATION REPOSITORIES
+🛠️ THE EXECUTIVE TOOLKIT
 
-### 📊 [Logistics-Data-Triage & Automated Inventory Controller](https://github.com/Kazi-Raisul-Islam/compliance-engine)
-* **Business Context:** Re-engineered a highly fragmented manufacturing supply chain dataset into an automated sorting and alert dashboard, minimizing critical material delays.
-* **The Manual Bottleneck:** Production supervisors manually scan massive spreadsheet rows to spot inventory depletion, leading to human error and assembly line stoppages.
-* **The Software Solution:** Programmed a deterministic Python validation engine that parses raw inbound CSV/JSON inventory states, sanitizes data formatting anomalies, and auto-generates high-priority escalation flags.
-* **The Visual Output:** Leveraged Figma-driven wireframes to map user interfaces, ensuring that floor-managers receive clean, zero-jargon visual metrics.
-* **Operational Validation:** Maintained via a fully continuous integration pipeline (GitHub Actions), verifying 100% data integrity upon every operational database refresh.
+Strategic Business Ops: Supply Chain Optimization, Standard Operating Procedure (SOP) Design, Resource Triage, SLA/KPI Tracking
+
+Data Control & Analytics: Advanced MS Excel (Data Modeling, Inventory Logs), MS PowerPoint, MS Word
+
+Process Automation: Python (Data Optimization, CSV/JSON Schema Validation), Git/GitHub Workflows, CI/CD Quality Gates
+
+User Experience & Layout Design: Figma, Adobe Photoshop, Canva (Visual Dashboard Mockups, High-Impact Training Documentation)
+
+Regulatory & Security Standards: SEMI E187 (Semiconductor & Automation Security Alignment), Enterprise Risk Management
+
+🚀 FEATURED STRATEGIC BUSINESS PROJECTS
+
+Automated Inventory Controller & Logistics Data Triage (Python, Advanced Excel Data Modeling)
+
+Project Link: GitHub Repository - Logistics Data Triage
+
+Architected an automated data-sanitization pipeline designed to replace manual spreadsheet audits on high-volume production floors, eliminating inventory blind spots.
+
+Operational Impact: Cleans and processes messy inbound shipping manifests, automatically evaluating stock levels against safety thresholds to generate immediate material shortage flags, directly preventing assembly line stoppages.
+
+Executive Visualization: Designed clean, data-driven Excel outputs and Figma layout interfaces to ensure floor managers receive high-clarity metrics with zero operational friction.
+
+Enterprise SOP Automation Tracker & Security Governance Model (Python, State-Machine Logic)
+
+Project Link: GitHub Repository - SOP Tracker
+
+Developed a digital standard operating procedure tracking system that programmatically routes floor-level operational incidents through a disciplined lifecycle queue (New ➔ Processing ➔ Resolved).
+
+Compliance Integration: Embedded algorithmic rules mapped to the SEMI E187 manufacturing security standard, auto-escalating high-risk anomalies (e.g., control system deviations) to specialized engineering queues.
+
+Audit Protection: Built immutable, timestamped logging trails within the software architecture to ensure seamless validation during internal corporate quality and compliance audits.
+
+🎓 EDUCATION & PROFESSIONAL DEVELOPMENT
+
+Bachelor of Business Administration (BBA): Focus on Operational Strategy & Digital Transformation
+
+Self-Directed Specializations: ITIL Incident Management Lifecycles, Industry 4.0 Supply Chain Logistics, Advanced Financial Spreadsheets
