@@ -1,57 +1,40 @@
 KAZI RAISUL ISLAM
 [![Automated EU AI Act Compliance Audit](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml/badge.svg)](https://github.com/kaziraisulslam/Kazi-Raisul-Islam/actions/workflows/compliance-audit.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20847495.svg)](https://doi.org/10.5281/zenodo.20847495)
+### 📈 Industry 4.0 Operations Specialist | BBA Strategic Analyst | Multilingual Execution
 
-🎯 EXECUTIVE PROFILE
+Forward-thinking Business Administration (BBA) Scholar (Target: 2029–2031) and industrial workflow analyst specializing in digital supply chain architectures, automated resource allocation, and advanced manufacturing cybersecurity frameworks (SEMI E187). Developer of deterministic data-triage systems engineered to optimize working capital cycles and secure critical production assets against supply chain vulnerabilities.
 
-Forward-thinking Business Administration (BBA) scholar and process analyst specializing in Industry 4.0 operations, digital supply chain management, and automated workflow optimization. Developer of deterministic data triage models designed to minimize working capital bottlenecks and enforce strict operational compliance metrics. Fluent in 4 global languages with an elite technical focus on industrial cybersecurity standards (SEMI E187), uniquely positioned to drive efficiency across multinational manufacturing and logistics hubs.
+---
 
-🌐 MULTILINGUAL OPERATIONS FLUENCY
+## 📅 STRATEGIC TIMELINE
+* **2028:** Language Specialization & Localization Prep Year 
+* **2029–2031:** Bachelor of Business Administration (BBA) | Focus on Digital Supply Chain Strategy & Operations Management
+---
 
-English: Professional & Technical Working Capacity
+## 🌐 GLOBAL MULTILINGUAL OPERATIONS CAPACITY
+Direct cross-border supplier coordination, technical documentation alignment, and international trade desk support:
+* **English:** Full Professional Fluency
+* **Hindi:** Full Professional Fluency
+* **Urdu:** Full Professional Fluency
+* **Bengali:** Native 
+---
 
-Hindi: Native / Full Professional Fluency
+## 🛠️ THE ENTERPRISE MANAGEMENT STACK
 
-Urdu: Full Professional Fluency
+* **Strategic Business Operations:** Standard Operating Procedure (SOP) Optimization, Value Stream Mapping, Cost-Out Logistics, SLA/KPI Tracking
+* **Data Engineering & Automation:** Python (Pandas Data Cleansing, Schema Validation), Advanced MS Excel (Pivot Tables, Data Modeling), Git/GitHub Workflows, CI/CD Pipeline Gates (GitHub Actions)
+* **Operational Visualization & Layout Design:** Figma, Adobe Photoshop, Canva (Visual SOP Assembly Guides, Executive Dashboard Mockups, Material Flow Layouts)
+* **Industrial Governance & Security:** SEMI E187 (Specification for Semiconductor Manufacturing Equipment Cybersecurity), Enterprise Risk Management (ERM), Third-Party Vendor Compliance
 
-Bengali: Native / Full Professional Fluency
+---
 
-🛠️ THE EXECUTIVE TOOLKIT
+### 📦 [Logistics-Data-Triage — Automated Inventory Tracking Engine](https://github.com/Kazi-Raisul-Islam/compliance-engine)
+* **Operational Business Impact:** Re-engineered a highly fragmented inbound shipping manifest pipeline into an automated sorting architecture, protecting production lines from material stockouts.
+* **The Solution:** Programmed a deterministic Python validation engine that ingests raw data manifests, normalizes formatting drift, and auto-generates critical low-stock escalation records before warehouse depletion triggers a line stoppage.
+* **Executive Presentation:** Leveraged Figma to design optimized user-interface boards, wrapping the code in clean, human-readable MS Excel outputs with custom conditional formatting layers for floor supervisors.
 
-Strategic Business Ops: Supply Chain Optimization, Standard Operating Procedure (SOP) Design, Resource Triage, SLA/KPI Tracking
-
-Data Control & Analytics: Advanced MS Excel (Data Modeling, Inventory Logs), MS PowerPoint, MS Word
-
-Process Automation: Python (Data Optimization, CSV/JSON Schema Validation), Git/GitHub Workflows, CI/CD Quality Gates
-
-User Experience & Layout Design: Figma, Adobe Photoshop, Canva (Visual Dashboard Mockups, High-Impact Training Documentation)
-
-Regulatory & Security Standards: SEMI E187 (Semiconductor & Automation Security Alignment), Enterprise Risk Management
-
-🚀 FEATURED STRATEGIC BUSINESS PROJECTS
-
-Automated Inventory Controller & Logistics Data Triage (Python, Advanced Excel Data Modeling)
-
-Project Link: GitHub Repository - Logistics Data Triage
-
-Architected an automated data-sanitization pipeline designed to replace manual spreadsheet audits on high-volume production floors, eliminating inventory blind spots.
-
-Operational Impact: Cleans and processes messy inbound shipping manifests, automatically evaluating stock levels against safety thresholds to generate immediate material shortage flags, directly preventing assembly line stoppages.
-
-Executive Visualization: Designed clean, data-driven Excel outputs and Figma layout interfaces to ensure floor managers receive high-clarity metrics with zero operational friction.
-
-Enterprise SOP Automation Tracker & Security Governance Model (Python, State-Machine Logic)
-
-Project Link: GitHub Repository - SOP Tracker
-
-Developed a digital standard operating procedure tracking system that programmatically routes floor-level operational incidents through a disciplined lifecycle queue (New ➔ Processing ➔ Resolved).
-
-Compliance Integration: Embedded algorithmic rules mapped to the SEMI E187 manufacturing security standard, auto-escalating high-risk anomalies (e.g., control system deviations) to specialized engineering queues.
-
-Audit Protection: Built immutable, timestamped logging trails within the software architecture to ensure seamless validation during internal corporate quality and compliance audits.
-
-🎓 EDUCATION & PROFESSIONAL DEVELOPMENT
-
-Bachelor of Business Administration (BBA): Focus on Operational Strategy & Digital Transformation
-
-Self-Directed Specializations: ITIL Incident Management Lifecycles, Industry 4.0 Supply Chain Logistics, Advanced Financial Spreadsheets
+### 📋 [SOP-Automation-Tracker — SEMI E187 Compliance Engine](https://github.com/Kazi-Raisul-Islam/compliance-engine)
+* **Governance Business Impact:** Modeled a high-discipline task lifecycle state-machine (`New ➔ Processing ➔ Resolved`) designed to eliminate communication gaps during factory shift changes.
+* **The Solution:** Embedded programmatic routing rules that monitor system status codes. If an anomaly violates the **SEMI E187 Cybersecurity Standard** (e.g., unauthorized endpoint communication on an industrial controller), the script immediately triggers a P1 Priority alert and auto-routes the task to the Industrial Control Systems (ICS) Security Queue.
+* **Audit Protection:** Enforces immutable, timestamped logging blocks to provide an airtight audit paper trail for international quality inspectors.
